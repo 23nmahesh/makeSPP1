@@ -1,0 +1,73 @@
+html{
+  background: #0000ff;
+}
+#box{
+  font-size: 5px;
+  background-color: rgba(0, 200, 210, 0.75);
+  padding-right:auto;
+  height:20%;
+  top:0;
+  left:0;
+  right:0;
+  position:fixed;
+  border: 5px solid black;
+  width: 98%;
+  z-index: -1;
+  overflow: hidden;
+}
+.topMenu{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.topMenu a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-top: 125px;
+}
+#title{
+  font-size: 35px;
+  padding: 50px;
+  text-align: left;
+}
+.topMenu .catagories{
+  padding-right: 35px;
+  overflow: hidden;
+}
+p{
+  font-size: 12px;
+}
+.topMenu img{
+  position: relative;
+  top: -30px;
+  left: 80px;
+  z-index: -1;
+}
+#leftCat{
+  margin-left: -80%;
+}
+.contact{
+  position: absolute;
+  top: -30%;
+  left: 160%;
+}
+#phone{
+  left: 150%;
+  top: -30%;
+}
+.parallax{
+  background: url('mainPic.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed ;
+  width: auto;
+  height: 1000px;
+  z-index: -2;
+  position: relative;
+}
+.main{
+  color: aliceblue;
+  font-size: 150px;
+  margin: 200px, 100px;
+  overflow-wrap: normal;
+}
